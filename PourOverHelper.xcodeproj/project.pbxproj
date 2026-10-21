@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01DE95858FD9A202B627DCDF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C40D9F2CECEC9901C036A09 /* SettingsView.swift */; };
+		08C11A615BE6CDA2A802E34E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83302D057C6080E1B98899B6 /* Assets.xcassets */; };
+		16F8CE75C92B820FB0B3270A /* BrewActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4A3E383AE298377E0648A /* BrewActivityAttributes.swift */; };
+		21B2190F9C1A5254A3058CE0 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F896620B7C04A0CA1E2058 /* AppState.swift */; };
+		2B275BF2C2F4B3272D66D5E8 /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5CD612FC7CE273529519F5 /* Equipment.swift */; };
+		2DC95987BA66186F2C8D9B21 /* CustomPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1FDC2352509C43A968E825 /* CustomPlanView.swift */; };
+		53EA5E2F16D799E3FD16A3A6 /* BrewActivity.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D807B4E5CD80D894B3EC9481 /* BrewActivity.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5751380A0A807F90870589EB /* BeanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF5674AF448F9919A4F0B59 /* BeanListView.swift */; };
+		5E6ADBA5F656491B6D00B45D /* BrewSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C58796398F2D0834860AB /* BrewSession.swift */; };
+		5EA7381152AF4D68DDCCD0DF /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D281B78A38B7F8BCF92F1D /* CalculatorView.swift */; };
+		5F2B686EC83FB20C997970D0 /* BrewTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76186C7BA673EDD6D63E1B3B /* BrewTimerView.swift */; };
+		6CA55777D611857F1406A9DB /* ScaleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ECAED8EA0C6FCE36638794 /* ScaleManager.swift */; };
+		82A1566B2103E240CB3C8695 /* BrewLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66755F043B2B9EC9B36C37D5 /* BrewLiveActivity.swift */; };
+		85B9F41371702D928ABFEA4A /* BrewMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71418D978D8F3D4D2607FD34 /* BrewMethod.swift */; };
+		8741607FC1291E082DD4FE76 /* BrewAdvisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E87B187F6FFE1B8D1AC80AB /* BrewAdvisor.swift */; };
+		964E8F965EB857FC9E97E283 /* ShareRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A915222E3AF4DC09045F33E /* ShareRecipeView.swift */; };
+		9841DE47BB9D48E12A737EA8 /* PourOverHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25833D25FAE1F6096027AC0C /* PourOverHelperApp.swift */; };
+		9EC3C8D849B831A63C6D4C75 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D112C8BB3E1B6AF44BCA98 /* Models.swift */; };
+		A1AB4A4ACBD48FADA99FC165 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8544C76E5D8FDE31F55FB822 /* ContentView.swift */; };
+		B558973E50DB8AE10759FB8F /* LogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444C4E4EFE8C5693CD403CE /* LogListView.swift */; };
+		C403BAAA5167502CAC74BF5C /* AdviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73243077357C2E92EAE90D85 /* AdviceView.swift */; };
+		E1AA2579E7E0BC31B112CBB2 /* PourPlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378BF45ADF89A450D35E916F /* PourPlanner.swift */; };
+		E4F4FE56E385C0900615106C /* RecipeShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EBC4A38D7A726697D1FC3 /* RecipeShare.swift */; };
+		F62B017CA8AC6EF52209D554 /* BrewActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4A3E383AE298377E0648A /* BrewActivityAttributes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12607E5899059F9F7EC6436F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1DFB599E78AA18E0DC62D1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CE8CF7F9E5561A5029823D5;
+			remoteInfo = BrewActivity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1840EB9977EF93BDF3A7603 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				53EA5E2F16D799E3FD16A3A6 /* BrewActivity.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		13D112C8BB3E1B6AF44BCA98 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		25833D25FAE1F6096027AC0C /* PourOverHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PourOverHelperApp.swift; sourceTree = "<group>"; };
+		261A5E8F0B1F16CB8ABB7A49 /* PourOverHelper.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PourOverHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A915222E3AF4DC09045F33E /* ShareRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareRecipeView.swift; sourceTree = "<group>"; };
+		378BF45ADF89A450D35E916F /* PourPlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PourPlanner.swift; sourceTree = "<group>"; };
+		3E87B187F6FFE1B8D1AC80AB /* BrewAdvisor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewAdvisor.swift; sourceTree = "<group>"; };
+		4444C4E4EFE8C5693CD403CE /* LogListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListView.swift; sourceTree = "<group>"; };
+		45D281B78A38B7F8BCF92F1D /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		5C40D9F2CECEC9901C036A09 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5D3C58796398F2D0834860AB /* BrewSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewSession.swift; sourceTree = "<group>"; };
+		5F5CD612FC7CE273529519F5 /* Equipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipment.swift; sourceTree = "<group>"; };
+		66755F043B2B9EC9B36C37D5 /* BrewLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewLiveActivity.swift; sourceTree = "<group>"; };
+		6BF5674AF448F9919A4F0B59 /* BeanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeanListView.swift; sourceTree = "<group>"; };
+		71418D978D8F3D4D2607FD34 /* BrewMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewMethod.swift; sourceTree = "<group>"; };
+		73243077357C2E92EAE90D85 /* AdviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceView.swift; sourceTree = "<group>"; };
+		76186C7BA673EDD6D63E1B3B /* BrewTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewTimerView.swift; sourceTree = "<group>"; };
+		83302D057C6080E1B98899B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8544C76E5D8FDE31F55FB822 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5F896620B7C04A0CA1E2058 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		BD1FDC2352509C43A968E825 /* CustomPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlanView.swift; sourceTree = "<group>"; };
+		C65EBC4A38D7A726697D1FC3 /* RecipeShare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeShare.swift; sourceTree = "<group>"; };
+		D7ECAED8EA0C6FCE36638794 /* ScaleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleManager.swift; sourceTree = "<group>"; };
+		D807B4E5CD80D894B3EC9481 /* BrewActivity.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = BrewActivity.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEED77F1FAC819AE65E3455D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E1E4A3E383AE298377E0648A /* BrewActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewActivityAttributes.swift; sourceTree = "<group>"; };
+		EA104405FC37516289E06D26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3CEA04AD829D23B2D9D4D2BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D807B4E5CD80D894B3EC9481 /* BrewActivity.appex */,
+				261A5E8F0B1F16CB8ABB7A49 /* PourOverHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62E1D83F181B30FE22B2E376 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E1E4A3E383AE298377E0648A /* BrewActivityAttributes.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6687F3B592FFEFA5612F1276 = {
+			isa = PBXGroup;
+			children = (
+				C145253FAF666448F447DB7E /* BrewActivity */,
+				F8EF09CFFE17C86805BB9659 /* PourOverHelper */,
+				62E1D83F181B30FE22B2E376 /* Shared */,
+				3CEA04AD829D23B2D9D4D2BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C145253FAF666448F447DB7E /* BrewActivity */ = {
+			isa = PBXGroup;
+			children = (
+				66755F043B2B9EC9B36C37D5 /* BrewLiveActivity.swift */,
+				EA104405FC37516289E06D26 /* Info.plist */,
+			);
+			path = BrewActivity;
+			sourceTree = "<group>";
+		};
+		F8EF09CFFE17C86805BB9659 /* PourOverHelper */ = {
+			isa = PBXGroup;
+			children = (
+				73243077357C2E92EAE90D85 /* AdviceView.swift */,
+				B5F896620B7C04A0CA1E2058 /* AppState.swift */,
+				83302D057C6080E1B98899B6 /* Assets.xcassets */,
+				6BF5674AF448F9919A4F0B59 /* BeanListView.swift */,
+				3E87B187F6FFE1B8D1AC80AB /* BrewAdvisor.swift */,
+				71418D978D8F3D4D2607FD34 /* BrewMethod.swift */,
+				5D3C58796398F2D0834860AB /* BrewSession.swift */,
+				76186C7BA673EDD6D63E1B3B /* BrewTimerView.swift */,
+				45D281B78A38B7F8BCF92F1D /* CalculatorView.swift */,
+				8544C76E5D8FDE31F55FB822 /* ContentView.swift */,
+				BD1FDC2352509C43A968E825 /* CustomPlanView.swift */,
+				5F5CD612FC7CE273529519F5 /* Equipment.swift */,
+				DEED77F1FAC819AE65E3455D /* Info.plist */,
+				4444C4E4EFE8C5693CD403CE /* LogListView.swift */,
+				13D112C8BB3E1B6AF44BCA98 /* Models.swift */,
+				25833D25FAE1F6096027AC0C /* PourOverHelperApp.swift */,
+				378BF45ADF89A450D35E916F /* PourPlanner.swift */,
+				C65EBC4A38D7A726697D1FC3 /* RecipeShare.swift */,
+				D7ECAED8EA0C6FCE36638794 /* ScaleManager.swift */,
+				5C40D9F2CECEC9901C036A09 /* SettingsView.swift */,
+				2A915222E3AF4DC09045F33E /* ShareRecipeView.swift */,
+			);
+			path = PourOverHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CE8CF7F9E5561A5029823D5 /* BrewActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3675EA54D0A8734B186E4A /* Build configuration list for PBXNativeTarget "BrewActivity" */;
+			buildPhases = (
+				CA1B48B81299E4A703CFCE49 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrewActivity;
+			packageProductDependencies = (
+			);
+			productName = BrewActivity;
+			productReference = D807B4E5CD80D894B3EC9481 /* BrewActivity.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		BCD62C27A5F24561AA25D5DC /* PourOverHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F03DA9314F01D5817D0B1F0 /* Build configuration list for PBXNativeTarget "PourOverHelper" */;
+			buildPhases = (
+				F46BD1A60F81B573B3AEA7C0 /* Sources */,
+				D91B64D824B6523363946096 /* Resources */,
+				A1840EB9977EF93BDF3A7603 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBFF16C42EBE72933229D602 /* PBXTargetDependency */,
+			);
+			name = PourOverHelper;
+			packageProductDependencies = (
+			);
+			productName = PourOverHelper;
+			productReference = 261A5E8F0B1F16CB8ABB7A49 /* PourOverHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1DFB599E78AA18E0DC62D1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 1B5A65C4CD378CB2C8AA6102 /* Build configuration list for PBXProject "PourOverHelper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6687F3B592FFEFA5612F1276;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CE8CF7F9E5561A5029823D5 /* BrewActivity */,
+				BCD62C27A5F24561AA25D5DC /* PourOverHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D91B64D824B6523363946096 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08C11A615BE6CDA2A802E34E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA1B48B81299E4A703CFCE49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F8CE75C92B820FB0B3270A /* BrewActivityAttributes.swift in Sources */,
+				82A1566B2103E240CB3C8695 /* BrewLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46BD1A60F81B573B3AEA7C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C403BAAA5167502CAC74BF5C /* AdviceView.swift in Sources */,
+				21B2190F9C1A5254A3058CE0 /* AppState.swift in Sources */,
+				5751380A0A807F90870589EB /* BeanListView.swift in Sources */,
+				F62B017CA8AC6EF52209D554 /* BrewActivityAttributes.swift in Sources */,
+				8741607FC1291E082DD4FE76 /* BrewAdvisor.swift in Sources */,
+				85B9F41371702D928ABFEA4A /* BrewMethod.swift in Sources */,
+				5E6ADBA5F656491B6D00B45D /* BrewSession.swift in Sources */,
+				5F2B686EC83FB20C997970D0 /* BrewTimerView.swift in Sources */,
+				5EA7381152AF4D68DDCCD0DF /* CalculatorView.swift in Sources */,
+				A1AB4A4ACBD48FADA99FC165 /* ContentView.swift in Sources */,
+				2DC95987BA66186F2C8D9B21 /* CustomPlanView.swift in Sources */,
+				2B275BF2C2F4B3272D66D5E8 /* Equipment.swift in Sources */,
+				B558973E50DB8AE10759FB8F /* LogListView.swift in Sources */,
+				9EC3C8D849B831A63C6D4C75 /* Models.swift in Sources */,
+				9841DE47BB9D48E12A737EA8 /* PourOverHelperApp.swift in Sources */,
+				E1AA2579E7E0BC31B112CBB2 /* PourPlanner.swift in Sources */,
+				E4F4FE56E385C0900615106C /* RecipeShare.swift in Sources */,
+				6CA55777D611857F1406A9DB /* ScaleManager.swift in Sources */,
+				01DE95858FD9A202B627DCDF /* SettingsView.swift in Sources */,
+				964E8F965EB857FC9E97E283 /* ShareRecipeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBFF16C42EBE72933229D602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CE8CF7F9E5561A5029823D5 /* BrewActivity */;
+			targetProxy = 12607E5899059F9F7EC6436F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01F4580992834E3F8E913304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BrewActivity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chienhua.pouroverhelper.activity;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		158C228B697785DDFD0B77D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3D3F238C5BC0CAAA7A741AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BrewActivity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chienhua.pouroverhelper.activity;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		429EFDD1DDB2D701A5A16A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PourOverHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chienhua.pouroverhelper;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3FF582F4CF98BA37FCC508E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EC06A82C774D8A5F8B82DE7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PourOverHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chienhua.pouroverhelper;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B5A65C4CD378CB2C8AA6102 /* Build configuration list for PBXProject "PourOverHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158C228B697785DDFD0B77D4 /* Debug */,
+				E3FF582F4CF98BA37FCC508E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8F03DA9314F01D5817D0B1F0 /* Build configuration list for PBXNativeTarget "PourOverHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				429EFDD1DDB2D701A5A16A92 /* Debug */,
+				EC06A82C774D8A5F8B82DE7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ED3675EA54D0A8734B186E4A /* Build configuration list for PBXNativeTarget "BrewActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F4580992834E3F8E913304 /* Debug */,
+				3D3F238C5BC0CAAA7A741AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1DFB599E78AA18E0DC62D1D /* Project object */;
+}

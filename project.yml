@@ -1,0 +1,51 @@
+name: PourOverHelper
+options:
+  bundleIdPrefix: com.chienhua
+  deploymentTarget:
+    iOS: "18.0"
+settings:
+  base:
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_VERSION: "6.0"
+    TARGETED_DEVICE_FAMILY: "1"
+targets:
+  PourOverHelper:
+    type: application
+    platform: iOS
+    sources: [PourOverHelper, Shared]
+    dependencies:
+      - target: BrewActivity
+    info:
+      path: PourOverHelper/Info.plist
+      properties:
+        CFBundleDisplayName: 手沖咖啡小幫手
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        NSSupportsLiveActivities: true
+        NSBluetoothAlwaysUsageDescription: 連接藍牙咖啡秤，即時顯示注水重量。
+        CFBundleURLTypes:
+          - CFBundleURLName: com.chienhua.pouroverhelper
+            CFBundleURLSchemes: [pourover]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.chienhua.pouroverhelper
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+  BrewActivity:
+    type: app-extension
+    platform: iOS
+    sources: [BrewActivity, Shared]
+    info:
+      path: BrewActivity/Info.plist
+      properties:
+        CFBundleDisplayName: 沖煮計時
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.chienhua.pouroverhelper.activity
