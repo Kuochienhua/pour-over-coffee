@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<string>zh-Hant</string>
 	<key>CFBundleDisplayName</key>
 	<string>手沖咖啡小幫手</string>
 	<key>CFBundleExecutable</key>
@@ -31,6 +31,10 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
 	<key>NSBluetoothAlwaysUsageDescription</key>
 	<string>連接藍牙咖啡秤，即時顯示注水重量。</string>
 	<key>NSSupportsLiveActivities</key>

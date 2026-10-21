@@ -3,12 +3,15 @@ options:
   bundleIdPrefix: com.chienhua
   deploymentTarget:
     iOS: "18.0"
+  developmentLanguage: zh-Hant
 settings:
   base:
     MARKETING_VERSION: "1.0"
     CURRENT_PROJECT_VERSION: "1"
     SWIFT_VERSION: "6.0"
     TARGETED_DEVICE_FAMILY: "1"
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: NL876SK67W
 targets:
   PourOverHelper:
     type: application
@@ -20,6 +23,9 @@ targets:
       path: PourOverHelper/Info.plist
       properties:
         CFBundleDisplayName: 手沖咖啡小幫手
+        CFBundleDevelopmentRegion: zh-Hant
+        LSRequiresIPhoneOS: true
+        ITSAppUsesNonExemptEncryption: false
         CFBundleShortVersionString: $(MARKETING_VERSION)
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         UILaunchScreen: {}
@@ -32,6 +38,7 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.chienhua.pouroverhelper
+        PRODUCT_NAME: PourOverHelper
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
   BrewActivity:
@@ -42,6 +49,7 @@ targets:
       path: BrewActivity/Info.plist
       properties:
         CFBundleDisplayName: 沖煮計時
+        CFBundleDevelopmentRegion: zh-Hant
         CFBundleShortVersionString: $(MARKETING_VERSION)
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         NSExtension:

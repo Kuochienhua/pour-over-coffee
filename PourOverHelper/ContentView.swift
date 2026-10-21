@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(AppState.self) private var app
+    @Environment(\.modelContext) private var modelContext
 
     var body: some View {
         @Bindable var app = app
@@ -22,6 +23,9 @@ struct ContentView: View {
                 SettingsView()
             }
         }
+        #if DEBUG
+        .task { DemoData.seedIfRequested(context: modelContext, app: app) }
+        #endif
         .alert("匯入朋友分享的食譜？",
                isPresented: Binding(get: { app.pendingImport != nil },
                                     set: { if !$0 { app.pendingImport = nil } }),

@@ -27,10 +27,12 @@
 		9EC3C8D849B831A63C6D4C75 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D112C8BB3E1B6AF44BCA98 /* Models.swift */; };
 		A1AB4A4ACBD48FADA99FC165 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8544C76E5D8FDE31F55FB822 /* ContentView.swift */; };
 		B558973E50DB8AE10759FB8F /* LogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4444C4E4EFE8C5693CD403CE /* LogListView.swift */; };
+		B5EF3C4124E195077EC1D56B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0F681178DF6AE2B892F8CA67 /* PrivacyInfo.xcprivacy */; };
 		C403BAAA5167502CAC74BF5C /* AdviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73243077357C2E92EAE90D85 /* AdviceView.swift */; };
 		E1AA2579E7E0BC31B112CBB2 /* PourPlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378BF45ADF89A450D35E916F /* PourPlanner.swift */; };
 		E4F4FE56E385C0900615106C /* RecipeShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EBC4A38D7A726697D1FC3 /* RecipeShare.swift */; };
 		F62B017CA8AC6EF52209D554 /* BrewActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E4A3E383AE298377E0648A /* BrewActivityAttributes.swift */; };
+		F6FE816E60F87D71E4D9CAEE /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15789623145040F9CE8CC3AC /* DemoData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +60,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F681178DF6AE2B892F8CA67 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		13D112C8BB3E1B6AF44BCA98 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		15789623145040F9CE8CC3AC /* DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
 		25833D25FAE1F6096027AC0C /* PourOverHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PourOverHelperApp.swift; sourceTree = "<group>"; };
 		261A5E8F0B1F16CB8ABB7A49 /* PourOverHelper.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PourOverHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A915222E3AF4DC09045F33E /* ShareRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareRecipeView.swift; sourceTree = "<group>"; };
@@ -137,12 +141,14 @@
 				45D281B78A38B7F8BCF92F1D /* CalculatorView.swift */,
 				8544C76E5D8FDE31F55FB822 /* ContentView.swift */,
 				BD1FDC2352509C43A968E825 /* CustomPlanView.swift */,
+				15789623145040F9CE8CC3AC /* DemoData.swift */,
 				5F5CD612FC7CE273529519F5 /* Equipment.swift */,
 				DEED77F1FAC819AE65E3455D /* Info.plist */,
 				4444C4E4EFE8C5693CD403CE /* LogListView.swift */,
 				13D112C8BB3E1B6AF44BCA98 /* Models.swift */,
 				25833D25FAE1F6096027AC0C /* PourOverHelperApp.swift */,
 				378BF45ADF89A450D35E916F /* PourPlanner.swift */,
+				0F681178DF6AE2B892F8CA67 /* PrivacyInfo.xcprivacy */,
 				C65EBC4A38D7A726697D1FC3 /* RecipeShare.swift */,
 				D7ECAED8EA0C6FCE36638794 /* ScaleManager.swift */,
 				5C40D9F2CECEC9901C036A09 /* SettingsView.swift */,
@@ -199,14 +205,24 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8CE8CF7F9E5561A5029823D5 = {
+						DevelopmentTeam = NL876SK67W;
+						ProvisioningStyle = Automatic;
+					};
+					BCD62C27A5F24561AA25D5DC = {
+						DevelopmentTeam = NL876SK67W;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 1B5A65C4CD378CB2C8AA6102 /* Build configuration list for PBXProject "PourOverHelper" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = "zh-Hant";
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				Base,
-				en,
+				"zh-Hant",
 			);
 			mainGroup = 6687F3B592FFEFA5612F1276;
 			minimizedProjectReferenceProxies = 1;
@@ -226,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08C11A615BE6CDA2A802E34E /* Assets.xcassets in Resources */,
+				B5EF3C4124E195077EC1D56B /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +273,7 @@
 				5EA7381152AF4D68DDCCD0DF /* CalculatorView.swift in Sources */,
 				A1AB4A4ACBD48FADA99FC165 /* ContentView.swift in Sources */,
 				2DC95987BA66186F2C8D9B21 /* CustomPlanView.swift in Sources */,
+				F6FE816E60F87D71E4D9CAEE /* DemoData.swift in Sources */,
 				2B275BF2C2F4B3272D66D5E8 /* Equipment.swift in Sources */,
 				B558973E50DB8AE10759FB8F /* LogListView.swift in Sources */,
 				9EC3C8D849B831A63C6D4C75 /* Models.swift in Sources */,
@@ -327,9 +345,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NL876SK67W;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -387,6 +407,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chienhua.pouroverhelper;
+				PRODUCT_NAME = PourOverHelper;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -425,9 +446,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NL876SK67W;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -463,6 +486,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chienhua.pouroverhelper;
+				PRODUCT_NAME = PourOverHelper;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

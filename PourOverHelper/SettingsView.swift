@@ -70,7 +70,7 @@ private struct ScaleSection: View {
                 Button("搜尋藍牙秤") { scale.startScan() }
             }
         } header: {
-            Text("藍牙咖啡秤")
+            Text("藍牙咖啡秤（實驗性）")
         } footer: {
             Text("支援藍牙標準「體重秤」協定的秤（解析度 5 g）。Acaia、Timemore 等品牌使用私有協定，目前尚未支援。連線後計時頁會顯示即時重量與注水曲線。")
         }
