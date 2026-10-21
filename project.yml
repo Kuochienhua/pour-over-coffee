@@ -9,7 +9,6 @@ settings:
     MARKETING_VERSION: "1.0"
     CURRENT_PROJECT_VERSION: "1"
     SWIFT_VERSION: "6.0"
-    TARGETED_DEVICE_FAMILY: "1"
     CODE_SIGN_STYLE: Automatic
     DEVELOPMENT_TEAM: NL876SK67W
 targets:
@@ -39,6 +38,8 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.chienhua.pouroverhelper
         PRODUCT_NAME: PourOverHelper
+        # 放在 target 層：XcodeGen 的 iOS App 範本會在 target 層預設 "1,2"（含 iPad），蓋掉專案層的設定
+        TARGETED_DEVICE_FAMILY: "1"
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
   BrewActivity:
@@ -57,3 +58,4 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.chienhua.pouroverhelper.activity
+        TARGETED_DEVICE_FAMILY: "1"
